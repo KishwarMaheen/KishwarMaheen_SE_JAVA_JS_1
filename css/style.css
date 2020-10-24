@@ -1,0 +1,100 @@
+body{
+  font: 16px/1.5 Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+header{
+  background-color: #E27D60;
+}
+
+header .logo{
+  float: left;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  font-weight: bold;
+}
+
+article{
+  width: 60%;
+  float: left;
+}
+
+aside{
+  padding: 16px;
+  float: right;
+  width: 30%;
+  background-color: #420420;
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: #E27D60;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table, th, td{
+  border: 1px solid black;
+}
+
+table th, td{
+  padding: 8px;
+}
+
+table td{
+  text-align: center;
+}
+
+section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form{
+  text-align: center;
+}
+
+.aside-headers{
+  text-align: center;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"]{
+  width: 80%
+}
+
+.last-input-text{
+  margin-bottom: 16px;
+}

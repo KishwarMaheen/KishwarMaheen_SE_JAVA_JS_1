@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <title>Nahid's Hardware | Update</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js">
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Nahid's Hardware</h1>
+        <nav>
+          <ul>
+            <li><a href="products.html">Show Products</a></li>
+            <li><a href="add.html">Add</a></li>
+            <li><a href="index.html">Sign Out</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <form id="update-product">
+          <input type="text" placeholder="Product Name" class="product-name"><br>
+          <input type="number" step="any" placeholder="Price" class="price" min="0"><br>
+          Product Type: <input type="radio" name="type" value="RAM" checked>
+          <label>RAM</label>
+          <input type="radio" name="type" value="Motherboard">
+          <label>Motherboard</label>
+          <input type="radio" name="type" value="Graphics Card">
+          <label>Graphics Card</label><br>
+          <input type="number" placeholder="Profit Percentage" class="profit last-input-text" step="any" min="0"><br>
+          <button type="submit">Update Product</button>
+        </form>
+        <p class="errorShow"></p>
+      </div>
+    </section>
+    <footer>
+      <p>Nahid's Hardware, All Rights Reserved. Copyright &copy 2020.</p>
+    </footer>
+    <script type="text/javascript" src="./js/update.js">
+
+    </script>
+  </body>
+</html>
